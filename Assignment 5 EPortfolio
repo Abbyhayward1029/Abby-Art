@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abby Hayward - Artist</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Snell+Roundhand:wght@200&family=Didot&display=swap"> <!-- Include the Snell Roundhand and Didot fonts -->
+    <style>
+        body {
+            font-family: 'Didot', serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: lightblue;
+            text-align: center;
+            padding: 10px;
+        }
+
+        header h1 {
+            font-family: 'Snell Roundhand', cursive;
+            font-weight: 200; /* Set font weight to 200 */
+        }
+
+        nav {
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: black; /* Change link color to black */
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            margin: 20px;
+            position: relative; /* Set position to relative */
+        }
+
+        #about-me {
+            width: 60%;
+        }
+
+        #about-me p {
+            font-size: 18px;
+            line-height: 1.5;
+            font-weight: 100;
+            text-align: left;
+        }
+
+        #photo {
+            float: right;
+            max-width: 450px;
+				margin-bottom: 10px;
+				margin-left: 20px;
+				object-fit: cover;
+        }
+
+        #pet-portrait-form {
+            width: 100%;
+            margin-left: 220px;
+        }
+
+        #pet-portrait-form h2 {
+            font-size: 24px;
+        }
+
+        #instagram-link,
+        #contact-info {
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Abby Hayward</h1>
+        <nav>
+            <a href="#shop">Shop</a>
+            <a href="#home">Home</a>
+            <a href="#portfolio">Portfolio</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>I am an artist living in St. John's, Newfoundland. My journey in art started in childhood, a lifelong exploration that brings me comfort and peace. I celebrate life's simple joys through my blend of realistic and whimsical styles. Whether capturing intricate details or creating playful scenes, I find joy in mediums like acrylic, oil, and digital art. Join me in embracing your inner child, appreciating life's beauty, and basking in the happiness that art can bring.</p>
+            <p>If you have a pet and would like me to paint them, I offer personalized pet portraits that capture the essence of your furry friend. Let's create a lasting memory together!</p>
+            <a href="#pet-portrait-form">Get a Pet Portrait</a>
+        </section>
+
+        <section id="photo"> <aside>
+            <img src="https://media.istockphoto.com/id/1183183783/photo/female-artist-works-on-abstract-oil-painting-moving-paint-brush-energetically-she-creates.jpg?s=612x612&w=0&k=20&c=JLPrSmpdzPklAVKycBJ83oPASPfFPS46XvN0TShfLwI=" "alt="Artist Painting">
+        </section> 
+</aside>
+    </main>
+
+   <section id="instagram-link">
+        <h2>Follow me on Instagram</h2>
+        <a href="#your-instagram-link">Instagram</a>
+    </section>
+
+    <section id="contact-info">
+        <h2>Contact Info</h2>
+        <p>Email: abbyhayward1029@gmail.com</p>
+    </section>
+</body>
+</html>
